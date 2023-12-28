@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Container{
+    height: 100vh;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6), rgba(0,0,0,0.6)) ,url(./images/wallpaperbetter.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+.nav-container .logo{
+    width: 50px;
+}
+.nav-container .logo img{
+
+    border-radius: 20%;
+}
+p {
+    font-size: 20px;
+    color:rgb(250, 248, 248);
+    line-height: 16px;
+
+}
+.btn{
+   padding: 12px 20px; 
+   font-size: 12px;
+   font-weight: 700;
+   margin-top: 30px;
+   cursor: pointer;
+   color: black;
+   background-color: white;
+   border-radius: 20px;
+   border: 1px solid red;
+   transition: ease 0.5s;
+}
+.btn:hover{
+    background-color: #000;
+    color: white;
+    border-color: white;
+
+}
+
+.logo{
+    color:yellow;
+   background-color:rgba(246, 242, 242, 0.91);
+
+   position: relative;
+   border-radius: 20px;
+
+      right: 60px;
+    }
+ .logo>a>img {
+    width: 190px;
+    
+    }
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+nav ul li a{
+   color:rgb(241, 241, 241); 
+   text-decoration: none;
+   transition: ease 0.5s;
+}
+nav ul li a:hover{
+    color: aliceblue;
+    
+}
+.row{
+    display: flex;
+    column-gap: 200px;
+    align-items: center;
+    height: 85%;
+}
+
+.col{
+    flex-basis: 40%;
+}
+h1{
+    color: rgb(249, 249, 247);
+    font-size: 100px;
+}
+h2{
+    color: rgb(249, 249, 247);
+    
+}
+.desc{
+    font-size: 16px;
+}
+
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+.card{
+    width: 200px;
+    height: 190px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border : 1px solid rgb(14, 13, 13);
+    position: relative;
+    margin: 10px 5px;
+    transition: ease 0.5s;
+
+}
+.card :hover{
+    
+    border-color: yellow;
+
+}
+.card .card-head{
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(250, 248, 248);
+    border-radius: 6px;
+    padding: 6px;
+}  
+
+
+
+.card .card-bottom{
+    position: absolute;
+    bottom:  26px;
+}
+.card.card-1{
+background-image: url(./images/volvo-belden-kirmali-arac.jpg)
+}
+.card.card-2{
+    background-image: url(./images/152332667-forklift-truck-warehouse-equipment.-transportation-of-goods-in-stock.png);
+
+}
+
+.card.card-4{
+    background-image: url(./images/desktop-wallpaper-john-deere-combine-harvester-s-series-overview-john-deere-combine.jpg);
+}
+
+
+.fab {
+    padding: 8px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+.fab:hover {
+    opacity: 0.6;
+}
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #171717;
+    color: white;
+}
+
+ 
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+ 
+
+.fa-Github {
+    background: #171717;
+    color: white;
+}
+.fa-instagram {
+    background: #701288;
+    color: rgb(255, 255, 255);
+}
+
+.icon-text{
+    width: 125px;
+    font-size: 16px;
+}
+ 
+.icon-text span{
+    margin:4px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9faa38;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #0d0d0e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #2db300;
+}
